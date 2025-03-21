@@ -1,0 +1,25 @@
+.banner {
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://getwallpapers.com/wallpaper/full/9/0/9/436946.jpg") 
+    no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: black;
+}
+
+.circle i {
+    position: relative;
+    top: 30px;
+}

@@ -1,0 +1,7 @@
+.banner {
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://getwallpapers.com/wallpaper/full/9/0/9/436946.jpg") 
+    no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
