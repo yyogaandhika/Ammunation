@@ -25,11 +25,11 @@
         h1 {
             font-size: 3rem;
             font-weight: 600;
-            opacity: 0;
-            animation: fadeIn 1.5s ease-in forwards;
             color: white;
             display: block;
             visibility: visible;
+            opacity: 1; /* Pastikan langsung terlihat */
+            animation: fadeIn 1.5s ease-in forwards, float 3s ease-in-out infinite;
         }
 
         p {
@@ -69,10 +69,6 @@
             }
         }
 
-        .floating {
-            animation: float 3s ease-in-out infinite;
-        }
-
         @keyframes float {
             0%, 100% {
                 transform: translateY(0);
@@ -84,7 +80,7 @@
     </style>
 </head>
 <body>
-    <h1 class="floating">Welcome to My Luxury Website</h1>
+    <h1>Welcome to My Luxury Website</h1>
     <p>Your premier destination for exclusive gunshop collections.</p>
     <a href="Form1.html">Visit My Gunshop</a>
 </body>
